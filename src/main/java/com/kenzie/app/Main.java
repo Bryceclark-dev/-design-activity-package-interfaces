@@ -20,6 +20,7 @@ class CardPayment implements Payment {
 }
 
 //implement Customer
+
 class OnlineCustomer implements Customer {
     public void createProfile(String userID){
         System.out.println("Profile created");
